@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+:root {
+  --fw-reguler: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --clr-magenta: hsl(300, 43%, 22%);
+  --clr-pink: hsl(333, 80%, 67%);
+  --clr-n-53: hsl(303, 10%, 53%);
+  --clr-n-96: hsl(300, 24%, 96%);
+  --clr-white: hsl(0, 0%, 100%);
+}
+
+*, *::after, *::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.9375rem;
+  font-weight: var(--fw-reguler);
+}
+
+.reviews-list {
+  list-style: none;
+}
